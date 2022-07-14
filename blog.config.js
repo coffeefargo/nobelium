@@ -2,16 +2,16 @@ const BLOG = {
   title: 'LUNADELTA',
   author: 'Estera',
   email: 'privateuser1.woup6@simplelogin.co',
-  link: 'https://nobelium.vercel.app',
+  link: 'esteralife.vercel.app',
   description: 'This gonna be an awesome website.',
-  lang: 'ro-RO, en-UK', // 
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'abril-fatface', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since:  // If leave this empty, current year will be used.
-  postsPerPage:10,
+  since: 2022, // If leave this empty, current year will be used.
+  postsPerPage: 10,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
